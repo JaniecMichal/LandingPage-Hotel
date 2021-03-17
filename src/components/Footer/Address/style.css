@@ -1,0 +1,21 @@
+.footer__addressHeader {
+  margin-top: 0px;
+  margin-bottom: 24px;
+  font-weight: 700;
+}
+
+.footer__addressDescription {
+  margin-top: 0;
+}
+
+.footer__addressDetails {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.footer__addressIcon {
+  margin-right: 14px;
+}

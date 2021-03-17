@@ -1,0 +1,16 @@
+.footer__menu {
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__menuItem {
+  margin-right: 53px;
+  margin-bottom: 30px;
+}
+
+.footer__menuLink {
+  text-decoration: none;
+  color: #fff;
+}

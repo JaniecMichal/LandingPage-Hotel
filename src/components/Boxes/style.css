@@ -1,0 +1,49 @@
+.boxesSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid: gap 0;
+  height: 640px;
+  color: #fff;
+  margin-bottom: 55px;
+}
+
+.boxesSection__header {
+  padding-top: 477px;
+  padding-left: 90px;
+  background: linear-gradient(180deg, rgba(76, 166, 124, 0) 53.65%, rgba(76, 166, 124, 0.8) 100%), url("../../images/SpecialOffer.png"), #4CA67C;
+  background-repeat: no-repeat;
+}
+
+.boxesSection__headerTitle {
+  font-size: 36px;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.boxesSection__box {
+  padding-top: 398px;
+  padding-left: 90px;
+  font-size: 36px;
+  line-height: 1.2;
+  background: linear-gradient(180deg, rgba(76, 166, 124, 0) 53.65%, rgba(76, 166, 124, 0.8) 100%), url("../../images/Restaurant.png"), #4CA67C;
+  background-repeat: no-repeat;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
+}
+
+.boxesSection__details {
+  display: flex;
+}
+
+.boxesSection__description {
+  max-width: 404px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.boxesSection__box--rental {
+  padding-top: 477px;
+  background: linear-gradient(180deg, rgba(76, 166, 124, 0) 53.65%, rgba(76, 166, 124, 0.8) 100%), url("../../images/Rental.png"), #4CA67C;
+  background-repeat: no-repeat;
+  box-shadow: unset;
+}

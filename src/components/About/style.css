@@ -1,0 +1,36 @@
+.section__buttonLink--about {
+  background-color: #E54A0F;
+  color: #fff;
+  margin-bottom: 223px;
+}
+
+.section--about {
+  height: 980px;
+  background-image: url("../../images/aboutBaner.png");
+  background-repeat: no-repeat;
+  text-align: left;
+  align-items: flex-start;
+  padding-left: 55%;
+}
+
+.section__header--about {
+  margin-top: 130px;
+  align-items: flex-start;
+}
+
+.section__description--main {
+  max-width: 60%;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 29px;
+}
+
+.section__description--sub {
+  max-width: 580px;
+  text-align: left;
+  margin-bottom: 29px
+}
+
+.section__importantTex {
+  font-weight: 700;
+}

@@ -1,0 +1,57 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+  color: #262038;
+  position: relative;
+  padding: 0 10px;
+}
+
+.section__wave {
+  position: absolute;
+  right: 0;
+  top: -8%;
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__headerTitle {
+  margin: 0;
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.section__headerWave {
+  margin-top: 22px;
+  margin-bottom: 28px;
+}
+
+.section__description {
+  max-width: 762px;
+  margin-top: 0;
+  margin-bottom: 81px;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+.section__buttonLink {
+  width: 260px;
+  margin-top: 60px;
+  margin-bottom: 130px;
+  display: block;
+  padding: 16px 0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ED7180;
+  border-radius: 5px;
+  border: 1px solid #ED7180;
+}

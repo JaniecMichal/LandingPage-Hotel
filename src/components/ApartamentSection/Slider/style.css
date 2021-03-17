@@ -1,0 +1,12 @@
+.slider {
+  max-width: 100vw;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  margin: auto;
+}
+
+.sliderArrow {
+  margin-bottom: 100px;
+}

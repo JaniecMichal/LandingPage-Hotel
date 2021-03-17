@@ -1,0 +1,20 @@
+.sitckyNavigationBar__navList {
+  width: 100%;
+  max-width: 1200px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sitckyNavigationBar__navItem {
+  margin-left: 6%;
+}
+
+.sitckyNavigationBar__navLink {
+  text-decoration: none;
+  color: #262038;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+}

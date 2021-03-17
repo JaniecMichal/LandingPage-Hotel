@@ -1,0 +1,61 @@
+.mainNavigationBar {
+  width: 100%;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding: 0 7% 0 11%;
+  display: grid;
+  grid-gap: 10px;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(7, auto) 60px;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.2;
+  color: white;
+}
+
+.mainNavigationBar__navigationItem:last-child {
+  margin-right: 10%;
+}
+
+.mainNavigationBar__navigationItem:last-child {
+  justify-self: start;
+  margin-right: 0;
+}
+
+.mainNavigationBar__navigationLink {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.mainNavigationBar__navigationLink:active::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  top: 29px;
+  left: 0px;
+  position: absolute;
+  background-image: url("../../../images/borderLink.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+}
+
+.mainNavigationBar__language {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 9px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+}
+
+.mainNavigationBar__language option {
+  background-color: transparent;
+  color: #000;
+}
