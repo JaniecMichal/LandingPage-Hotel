@@ -13,15 +13,24 @@
   color: white;
 }
 
+.rec.rec-arrow:hover:enabled {
+  background: #ED7180;
+}
+
 .rec.rec-arrow:focus:enabled {
   background: #ED7180;
   color: white;
   border-color: #ED7180;
 }
 
+.rec.rec-arrow:disabled {
+  background: grey;
+}
+
 .rec.rec-dot {
   background: #ffbbba;
   border-color: #ffbbba;
+  box-shadow: unset;
 }
 
 .rec.rec-dot_active {
