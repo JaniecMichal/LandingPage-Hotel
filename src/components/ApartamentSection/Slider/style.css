@@ -7,6 +7,24 @@
   margin: auto;
 }
 
-.sliderArrow {
+.rec.rec-arrow {
+  background: #ED7180;
   margin-bottom: 100px;
+  color: white;
+}
+
+.rec.rec-arrow:focus:enabled {
+  background: #ED7180;
+  color: white;
+  border-color: #ED7180;
+}
+
+.rec.rec-dot {
+  background: #ffbbba;
+  border-color: #ffbbba;
+}
+
+.rec.rec-dot_active {
+  background: #ED7180;
+  border-color: #ED7180;
 }

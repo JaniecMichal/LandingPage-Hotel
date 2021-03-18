@@ -1,7 +1,6 @@
 import React from "react";
+import Carousel from "react-elastic-carousel";
 import "./style.css";
-import leftArrow from "../../../images/sliderLeft.svg";
-import rightArrow from "../../../images/sliderRight.svg";
 import SliderItem from "./SliderItem";
 import aplinImage from "../../../images/aplin.png";
 import gratbahnImage from "../../../images/gratbahn.png";
@@ -33,11 +32,57 @@ const Slider = () => {
       apartamentArea: "80 m2",
       apartamentPrice: 55,
     },
+    {
+      apartamentName: "Wienna Rooms",
+      apartamentImage: aplinImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 45,
+    },
+    {
+      apartamentName: "Mountain Apartament",
+      apartamentImage: gratbahnImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 39,
+    },
+    {
+      apartamentName: "Brno Rooms",
+      apartamentImage: sommerskiImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 55,
+    },
+    {
+      apartamentName: "Wienna Rooms",
+      apartamentImage: aplinImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 45,
+    },
+    {
+      apartamentName: "Mountain Apartament",
+      apartamentImage: gratbahnImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 39,
+    },
+    {
+      apartamentName: "Brno Rooms",
+      apartamentImage: sommerskiImage,
+      apartamentVolume: 6,
+      apartamentBeds: 2,
+      apartamentArea: "80 m2",
+      apartamentPrice: 55,
+    },
   ];
   return (
-    <section className="slider">
-      <img src={leftArrow} alt="" className="sliderArrow" />
-
+    <Carousel itemsToShow={3} className="carousel">
       {apartamentsData.map(
         ({
           apartamentName,
@@ -46,20 +91,21 @@ const Slider = () => {
           apartamentBeds,
           apartamentArea,
           apartamentPrice,
-        }) => (
-          <SliderItem
-            roomName={apartamentName}
-            roomImage={apartamentImage}
-            roomVolume={apartamentVolume}
-            roomBeds={apartamentBeds}
-            roomArea={apartamentArea}
-            roomPrice={apartamentPrice}
-          />
-        )
+        }) => {
+          return (
+            <SliderItem
+              key={apartamentName}
+              roomName={apartamentName}
+              roomImage={apartamentImage}
+              roomVolume={apartamentVolume}
+              roomBeds={apartamentBeds}
+              roomArea={apartamentArea}
+              roomPrice={apartamentPrice}
+            />
+          );
+        }
       )}
-
-      <img src={rightArrow} alt="" className="sliderArrow" />
-    </section>
+    </Carousel>
   );
 };
 
