@@ -1,5 +1,4 @@
 .searchingForm {
-  width: 80%;
   max-width: 1200px;
   margin: 152px auto 0px auto;
   padding: 48px 50px;
@@ -34,8 +33,14 @@
 }
 
 .searchingForm__input {
-  width: 100%;
-  max-width: 260px;
+  max-width: 100%;
+  background: #fff;
+  padding: 14px 12px 17px 21px;
+}
+
+.MuiFormControl-root {
+  max-width: 100%;
+  background: #fff;
   padding: 14px 12px 17px 21px;
 }
 
@@ -60,4 +65,8 @@
   max-width: 160px;
   padding: 16px;
   margin-top: 0;
+}
+
+.react-date-picker__wrapper {
+  border: none;
 }
