@@ -180,15 +180,17 @@
 
 @media(max-width:720px) {
   .section {
-    margin-top: 47px;
+    margin-top: 0;
     padding: 0;
     padding-left: 20px;
   }
   .section__wave {
+    margin-top:47px;
     right: -15%;
     top: -7%;
   }
   .section__headerTitle {
+    margin-top:47px;
     font-size: 30px;
   }
   .section__headerWave {
