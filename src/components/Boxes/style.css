@@ -47,3 +47,43 @@
   background-repeat: no-repeat;
   box-shadow: unset;
 }
+
+@media(max-width:415px) {
+  .boxesSection {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .boxesSection__header {
+    padding: 119px 0px 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+  }
+  .boxesSection__headerTitle {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0;
+  }
+  .boxesSection__headerWave {
+    display: none;
+  }
+  .boxesSection__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    font-size: 30px;
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+  }
+  .boxesSection__details {
+    display: block;
+  }
+}

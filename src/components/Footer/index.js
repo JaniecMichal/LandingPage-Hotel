@@ -8,9 +8,12 @@ import Address from "./Address";
 import Socials from "../Socials";
 import Navigation from "./Navigation";
 import Contact from "./Contact";
+import Stats from "./Stats";
 
 const Footer = () => (
   <footer className="footer">
+    <Stats />
+
     <header className="footer__header">
       <img src={logo} alt="logo" />
     </header>

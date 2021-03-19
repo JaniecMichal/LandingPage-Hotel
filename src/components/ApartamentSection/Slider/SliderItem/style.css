@@ -53,3 +53,12 @@
   font-weight: 600;
   color: #58516B;
 }
+
+@media(max-width:415px) {
+  .sliderItem__details {
+    padding: 20px 20px 20px 20px;
+  }
+  .sliderItem__title {
+    font-size: 18px;
+  }
+}

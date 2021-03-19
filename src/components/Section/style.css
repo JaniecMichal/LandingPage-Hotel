@@ -6,6 +6,7 @@
   color: #262038;
   position: relative;
   padding: 0 10px;
+  background: #FFF8F8;
 }
 
 .section__wave {
@@ -54,4 +55,36 @@
   color: #ED7180;
   border-radius: 5px;
   border: 1px solid #ED7180;
+}
+
+.section__HeaderImage {
+  display: none;
+}
+
+@media(max-width:415px) {
+  .section {
+    margin-top: 47px;
+    padding: 0;
+    padding-left: 20px;
+  }
+  .section__wave {
+    width: 40%;
+    right: -15%;
+    top: -7%;
+  }
+  .section__headerTitle {
+    font-size: 30px;
+  }
+  .section__headerWave {
+    margin-bottom: 23px;
+  }
+  .section__description {
+    max-width: 89%;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  .section__buttonLink {
+    margin-top: 30px;
+    margin-bottom: 29px;
+  }
 }

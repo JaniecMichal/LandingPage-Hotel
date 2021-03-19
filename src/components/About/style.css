@@ -34,3 +34,33 @@
 .section__importantTex {
   font-weight: 700;
 }
+
+@media(max-width:415px) {
+  .section--about {
+    margin-top: 0px;
+    background-image: url("../../images/aboutBackgroundSmall.png");
+    background-size: cover;
+    padding: 0px 20px 34px 20px;
+    align-items: center;
+  }
+  .section__header--about {
+    margin-top: 0px;
+    align-items: flex-start;
+  }
+  .section__description--main {
+    max-width: 374px;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .section__description--sub {
+    max-width: 374px;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .section__description--sub:nth-child(2) {
+    display: none;
+  }
+  .section__HeaderImage--about {
+    display: unset;
+  }
+}

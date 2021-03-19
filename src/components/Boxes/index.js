@@ -7,7 +7,7 @@ const Boxes = () => (
   <section className="boxesSection">
     <header className="boxesSection__header">
       <h2 className="boxesSection__headerTitle">Special offer</h2>
-      <img src={specialOfferWave} alt="" />
+      <img src={specialOfferWave} alt="" className="boxesSection__headerWave" />
     </header>
 
     <article className="boxesSection__box">

@@ -31,9 +31,29 @@
   background: #ffbbba;
   border-color: #ffbbba;
   box-shadow: unset;
+  display: none;
 }
 
 .rec.rec-dot_active {
   background: #ED7180;
   border-color: #ED7180;
+}
+
+@media(max-width:415px) {
+  .rec.rec-arrow {
+    display: none;
+  }
+  .rec.rec-dot {
+    box-shadow: unset;
+    display: unset;
+  }
+  .rec-slider-container {
+    width: 100vw;
+  }
+  .rec.rec-item-wrapper {
+    width: auto !important;
+  }
+  .rec.rec-slider-container {
+    margin: 0;
+  }
 }

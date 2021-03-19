@@ -21,7 +21,7 @@ const NavigationBar = () => {
           Gallery{" "}
         </a>
       </li>
-      <li className="mainNavigationBar__navigationItem">
+      <li className="mainNavigationBar__navigationItem mainNavigationBar__navigationItem--logo">
         <img src={logo} alt="logo" className="logo" />
       </li>
       <li className="mainNavigationBar__navigationItem">

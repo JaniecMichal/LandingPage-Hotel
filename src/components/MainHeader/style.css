@@ -3,6 +3,11 @@
   height: 1024px;
   font-weight: 700;
   color: #fff;
+  background-image: url("../../images/heroBaner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center -3px;
+  padding-top: 10px;
 }
 
 .mainHeader__headerTitle {
@@ -19,4 +24,21 @@
 
 .logo {
   width: 100%;
+}
+
+@media(max-width:415px) {
+  .mainHeader {
+    padding: 30px 30px 76px 30px;
+    height: auto;
+    background-image: url("../../images/heroBaner.png");
+    background-position: center;
+  }
+  .logo {
+    width: 130px;
+  }
+  .mainHeader__headerTitle {
+    margin-top: 112px;
+    margin-bottom: 0px;
+    font-size: 36px;
+  }
 }

@@ -19,6 +19,10 @@
   background-size: 100%;
 }
 
+.searchingForm__mobileButton {
+  display: none;
+}
+
 .inputWrapper {
   display: flex;
   flex-direction: column;
@@ -69,4 +73,34 @@
 
 .react-date-picker__wrapper {
   border: none;
+}
+
+@media(max-width:415px) {
+  .searchingForm {
+    display: block;
+    padding: 0;
+    margin-top: 128px;
+  }
+  .inputWrapper {
+    display: none;
+  }
+  .searchingForm__button {
+    display: none;
+  }
+  .searchingForm::after {
+    content: "";
+    background-image: none;
+  }
+  .searchingForm__mobileButton {
+    display: unset;
+    width: 100%;
+    height: 100%;
+    padding: 16px 37px;
+    background: transparent;
+    border: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+  }
 }

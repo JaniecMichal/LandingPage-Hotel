@@ -7,6 +7,7 @@ import ApartamentSection from "./components/ApartamentSection";
 import About from "./components/About";
 import Boxes from "./components/Boxes";
 import Footer from "./components/Footer";
+import MobileExtraBar from "./components/MobileExtraBar";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Boxes />
         <Footer />
+        <MobileExtraBar />
       </Container>
     </>
   );

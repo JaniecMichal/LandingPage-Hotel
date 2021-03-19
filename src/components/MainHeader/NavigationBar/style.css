@@ -1,6 +1,5 @@
 .mainNavigationBar {
   width: 100%;
-  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -58,4 +57,18 @@
 .mainNavigationBar__language option {
   background-color: transparent;
   color: #000;
+}
+
+@media(max-width:415px) {
+  .mainNavigationBar {
+    display: block;
+    text-align: center;
+    margin-top: 54px;
+  }
+  .mainNavigationBar__navigationItem {
+    display: none;
+  }
+  .mainNavigationBar__navigationItem--logo {
+    display: unset;
+  }
 }

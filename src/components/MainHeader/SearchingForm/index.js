@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import DatePicker from "react-date-picker";
 import TextField from "@material-ui/core/TextField";
-import { makeStyles } from "@material-ui/core/styles";
 import "./style.css";
 import searchIcon from "../../../images/searchIcon.svg";
 
@@ -11,6 +10,7 @@ const SearchingForm = () => {
 
   return (
     <form className="searchingForm">
+      <button className="searchingForm__mobileButton">Booking online</button>
       <div className="inputWrapper ">
         <label className="searchingForm__label">Check in</label>
         <DatePicker

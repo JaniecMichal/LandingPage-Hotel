@@ -13,10 +13,18 @@ const Section = ({
   headerModifierClass,
   descriptionModifierClass,
   buttonModifierClass,
+  sectionHeaderImage,
+  modifierHeaderImageClass,
 }) => {
   return (
     <section className={`section ${sectionModifierClass}`}>
       {sectionWave ? <img src={wave} className="section__wave" /> : ""}
+
+      <img
+        src={sectionHeaderImage}
+        alt=""
+        class={`section__HeaderImage ${modifierHeaderImageClass}`}
+      />
 
       <header className={`section__header ${headerModifierClass}`}>
         <h2 className="section__headerTitle" id="apartaments">

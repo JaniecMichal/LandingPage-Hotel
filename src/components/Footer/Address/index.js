@@ -5,7 +5,6 @@ import mailIcon from "../../../images/mailIcon.svg";
 
 const Address = ({ name, address, phoneNumber, mail }) => (
   <address>
-    phoneNumber
     <h4 className="footer__headerTitle">Contact us</h4>
     <h5 className="footer__addressHeader">{name}</h5>
     <p className="footer__addressDescription">{address}</p>

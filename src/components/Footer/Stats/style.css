@@ -1,0 +1,32 @@
+.footer__stats {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer__statsItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid #58516B;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.footer__statsDetails {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer__statsHeader {
+  font-size: 30px;
+  color: #ED7180;
+  margin: 0;
+}

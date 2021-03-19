@@ -21,3 +21,9 @@
   width: 100px;
   margin-left: 32px;
 }
+
+@media(max-width:415px) {
+  .stickyNavigationBar {
+    display: none;
+  }
+}
