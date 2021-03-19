@@ -184,13 +184,19 @@
     padding: 0;
     padding-left: 20px;
   }
+  .section--pageVersion {
+    max-width: 1072px;
+    margin: 50px auto 100px;
+    background: #fff;
+    padding: 0 72px;
+  }
   .section__wave {
-    margin-top:47px;
+    margin-top: 47px;
     right: -15%;
     top: -7%;
   }
   .section__headerTitle {
-    margin-top:47px;
+    margin-top: 47px;
     font-size: 30px;
   }
   .section__headerWave {

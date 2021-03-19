@@ -5,11 +5,11 @@ import InfoHeader from "../../components/InfoHeader";
 import MainHeader from "../../components/MainHeader";
 import Section from "../../components/Section";
 import Footer from "../../components/Footer";
+import MobileExtraBar from "../../components/MobileExtraBar";
 import aboutImage from "../../images/aboutImage.png";
 import { aboutRestContent, aboutUsDescription } from "./assets";
 
 const AboutUS = () => {
-  
   return (
     <Container pageVersion={true}>
       <InfoHeader headerMessage="We are open!" />
@@ -25,6 +25,7 @@ const AboutUS = () => {
         sectionExtraContent={aboutRestContent()}
       />
       <Footer pageVersion={true} />
+      <MobileExtraBar />
     </Container>
   );
 };
