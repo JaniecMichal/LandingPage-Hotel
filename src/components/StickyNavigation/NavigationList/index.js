@@ -1,5 +1,4 @@
 import React from "react";
-import NavigationBar from "../../MainHeader/NavigationBar";
 import "./style.css";
 
 const NavigationList = () => {
@@ -11,28 +10,28 @@ const NavigationList = () => {
         </a>
       </li>
       <li className="sitckyNavigationBar__navItem">
-        <a href="" className="sitckyNavigationBar__navLink">
+        <a href="/#" className="sitckyNavigationBar__navLink">
           {" "}
           Restaurant{" "}
         </a>
       </li>
       <li className="sitckyNavigationBar__navItem">
-        <a href="" className="sitckyNavigationBar__navLink">
+        <a href="/#" className="sitckyNavigationBar__navLink">
           Gallery{" "}
         </a>
       </li>
       <li className="sitckyNavigationBar__navItem">
-        <a href="" className="sitckyNavigationBar__navLink">
+        <a href="/#" className="sitckyNavigationBar__navLink">
           Tips for tips{" "}
         </a>
       </li>
       <li className="sitckyNavigationBar__navItem">
-        <a href="" className="sitckyNavigationBar__navLink">
+        <a href="/#" className="sitckyNavigationBar__navLink">
           Special Offers{" "}
         </a>
       </li>
       <li className="sitckyNavigationBar__navItem">
-        <a href="" className="sitckyNavigationBar__navLink">
+        <a href="/#" className="sitckyNavigationBar__navLink">
           Contact{" "}
         </a>
       </li>

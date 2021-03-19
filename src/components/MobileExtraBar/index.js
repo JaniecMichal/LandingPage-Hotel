@@ -14,7 +14,7 @@ const MobileExtraBar = () => {
 
   return (
     <>
-      <nav class={hideNavigation ? "visible" : "unvisible"}>
+      <nav className={hideNavigation ? "visible" : "unvisible"}>
         <nav className="mobileNavigationBar">
           <ul className="mobileNavList">
             <li>
@@ -58,7 +58,7 @@ const MobileExtraBar = () => {
           Booking online <img src={searchIcon} alt="" className="searchIcon" />
         </button>
         <button
-          class={`mobileBar__button ${
+          className={`mobileBar__button ${
             hideNavigation ? "mobileBar__button--menuActive" : ""
           }`}
           onClick={showNavigationBar}

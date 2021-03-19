@@ -10,41 +10,45 @@ import Navigation from "./Navigation";
 import Contact from "./Contact";
 import Stats from "./Stats";
 
-const Footer = () => (
-  <footer className="footer">
-    <Stats />
+const Footer = ({ pageVersion }) => {
+  return (
+    <footer className="footer">
+      {!pageVersion ? <Stats /> : ""}
 
-    <header className="footer__header">
-      <img src={logo} alt="logo" />
-    </header>
+      <header className="footer__header">
+        <img src={logo} alt="logo" />
+      </header>
 
-    <img src={lightLine} alt="" className="footer__line" />
+      {pageVersion ? <Stats pageVersion={pageVersion} /> : ""}
 
-    <div className="footer__content">
-      <Address
-        name={"Praga.at"}
-        address={"Krakowska 20/29, 30-300 Kaprun, Austria"}
-        phoneNumber={"+43 600 400 500"}
-        mail={"contact@apartaments.com"}
-      />
-      <Navigation />
+      <img src={lightLine} alt="" className="footer__line" />
 
-      <Contact />
-    </div>
-    <img src={pinkLine} alt="" className="footer__line" />
+      <div className="footer__content">
+        <Address
+          name={"Praga.at"}
+          address={"Krakowska 20/29, 30-300 Kaprun, Austria"}
+          phoneNumber={"+43 600 400 500"}
+          mail={"contact@apartaments.com"}
+        />
+        <Navigation />
 
-    <div className="footer__copyrightSocials">
-      <div className="footer__copyright">
-        <p className="footer__copyrightText">
-          {" "}
-          Copyright © 2021 by Hotelwsieci
-        </p>
-        <img src={hwsLogo} alt="hwsLogo" />
+        <Contact />
       </div>
+      <img src={pinkLine} alt="" className="footer__line" />
 
-      <Socials className={"footer__socials"} />
-    </div>
-  </footer>
-);
+      <div className="footer__copyrightSocials">
+        <div className="footer__copyright">
+          <p className="footer__copyrightText">
+            {" "}
+            Copyright © 2021 by Hotelwsieci
+          </p>
+          <img src={hwsLogo} alt="hwsLogo" />
+        </div>
+
+        <Socials className={"footer__socials"} />
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;

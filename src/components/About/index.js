@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Section from "../Section";
 import smallBaner from "../../images/aboutBanerSmall.png";
+import { toAboutSection } from "../../routes";
 
 const About = () => (
   <Section
@@ -36,6 +37,7 @@ const About = () => (
     }
     buttonModifierClass={"section__buttonLink--about"}
     sectionButtonLinkText={"about us"}
+    sectionLinkTo={toAboutSection()}
   />
 );
 

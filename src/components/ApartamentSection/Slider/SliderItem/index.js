@@ -22,17 +22,17 @@ const SliderItem = ({
 
           <div className="sliderItem__roomDetails">
             <div className="sliderItem__detailsItem">
-              <img src={volumeIcon} />
+              <img src={volumeIcon} alt="" />
               <span className="sliderItem__detailText">{roomVolume}</span>
             </div>
 
             <div className="sliderItem__detailsItem">
-              <img src={bedsIcon} />
+              <img src={bedsIcon} alt="" />
               <span className="sliderItem__detailText">{roomBeds}</span>
             </div>
 
             <div className="sliderItem__detailsItem">
-              <img src={areaIcon} />
+              <img src={areaIcon} alt="" />
               <span className="sliderItem__detailText">{roomArea}</span>
             </div>
           </div>

@@ -5,9 +5,13 @@ import locationsIco from "../../../images/location.svg";
 import ratingIco from "../../../images/rating.svg";
 import standardIco from "../../../images/standard.svg";
 
-const Stats = () => {
+const Stats = ({ pageVersion }) => {
   return (
-    <section className="footer__stats">
+    <section
+      className={`footer__stats ${
+        pageVersion ? "footer__stats--pageVersion" : ""
+      }`}
+    >
       <article className="footer__statsItem">
         <img src={apartamentsIco} alt="apartaments_stats" />
         <div className="footer__statsDetails">

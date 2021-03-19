@@ -20,7 +20,7 @@ const Boxes = () => (
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do or
           incididunt ut labor
         </p>
-        <a href="">
+        <a href>
           <img src={boxesArrow} alt="" />
         </a>
       </div>

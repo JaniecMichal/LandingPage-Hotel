@@ -10,12 +10,34 @@
   padding-top: 10px;
 }
 
+.mainHeader--page {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  background: #262038;
+  background-image: none;
+  height: auto;
+}
+
+.pageWave {
+  max-width: 84px;
+  margin: 37px auto;
+}
+
 .mainHeader__headerTitle {
   margin-top: 174px;
   text-align: center;
   font-size: 64px;
   font-weight: 400;
   line-height: 1.18;
+}
+
+.mainHeader__headerTitle--page {
+  margin-top: 73px;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 .mainHeader__headerTitle--strong {
@@ -26,12 +48,35 @@
   width: 100%;
 }
 
+.pageLogo {
+  width: 180px;
+  margin-left: 152px;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media(max-width:1300px) {
+  .pageLogo {
+    width: 180px;
+    margin-left: 10%;
+  }
+}
+
 @media(max-width:720px) {
   .mainHeader {
     padding: 30px 30px 76px 30px;
     height: auto;
     background-image: url("../../images/heroBaner.png");
     background-position: center;
+  }
+  .mainHeader--page {
+    background: #262038;
+    background-image: none;
+    height: auto;
   }
   .logo {
     width: 130px;
@@ -40,5 +85,11 @@
     margin-top: 112px;
     margin-bottom: 0px;
     font-size: 36px;
+  }
+  .mainHeader__headerTitle--page {
+    margin-top: 73px;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: 700;
   }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import wave from "../../images/wave.svg";
 import borderWave from "../../images/apartamentWave.svg";
+import { Link } from "react-router-dom";
 
 const Section = ({
   sectionWave,
@@ -15,22 +16,34 @@ const Section = ({
   buttonModifierClass,
   sectionHeaderImage,
   modifierHeaderImageClass,
+  sectionLinkTo,
+  pageSection,
+  pageImage,
 }) => {
   return (
     <section className={`section ${sectionModifierClass}`}>
-      {sectionWave ? <img src={wave} className="section__wave" /> : ""}
-
+      {sectionWave ? <img src={wave} className="section__wave" alt="" /> : ""}
+      {pageSection && pageImage ? <img src={pageImage} alt="" className="pageImage" /> : ""}
       <img
         src={sectionHeaderImage}
         alt=""
-        class={`section__HeaderImage ${modifierHeaderImageClass}`}
+        className={`section__HeaderImage ${modifierHeaderImageClass}`}
       />
 
       <header className={`section__header ${headerModifierClass}`}>
-        <h2 className="section__headerTitle" id="apartaments">
+        <h2
+          className={`section__headerTitle ${
+            pageSection ? "section__headerTitle--pageVersion" : ""
+          }`}
+          id="apartaments"
+        >
           {sectionTitle}
         </h2>
-        <img src={borderWave} alt="" className="section__headerWave" />
+        {!pageSection ? (
+          <img src={borderWave} alt="" className="section__headerWave" />
+        ) : (
+          ""
+        )}
       </header>
 
       <p className={`section__description ${descriptionModifierClass}`}>
@@ -39,9 +52,15 @@ const Section = ({
 
       {sectionExtraContent}
 
-      <a href="" className={`section__buttonLink ${buttonModifierClass}`}>
-        More {sectionButtonLinkText}
-      </a>
+      {!pageSection ? (
+        <button className={`section__buttonLink ${buttonModifierClass}`}>
+          <Link to={sectionLinkTo} className="section__linkTo">
+            More {sectionButtonLinkText}
+          </Link>
+        </button>
+      ) : (
+        ""
+      )}
     </section>
   );
 };
