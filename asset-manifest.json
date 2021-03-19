@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/NewProject/static/css/main.7a7f0d76.chunk.css",
-    "main.js": "/NewProject/static/js/main.f1ff97ba.chunk.js",
-    "main.js.map": "/NewProject/static/js/main.f1ff97ba.chunk.js.map",
+    "main.css": "/NewProject/static/css/main.b0d73199.chunk.css",
+    "main.js": "/NewProject/static/js/main.59078b81.chunk.js",
+    "main.js.map": "/NewProject/static/js/main.59078b81.chunk.js.map",
     "runtime-main.js": "/NewProject/static/js/runtime-main.69dc808e.js",
     "runtime-main.js.map": "/NewProject/static/js/runtime-main.69dc808e.js.map",
     "static/css/2.4c78f058.chunk.css": "/NewProject/static/css/2.4c78f058.chunk.css",
-    "static/js/2.11f326c6.chunk.js": "/NewProject/static/js/2.11f326c6.chunk.js",
-    "static/js/2.11f326c6.chunk.js.map": "/NewProject/static/js/2.11f326c6.chunk.js.map",
+    "static/js/2.0e6d3684.chunk.js": "/NewProject/static/js/2.0e6d3684.chunk.js",
+    "static/js/2.0e6d3684.chunk.js.map": "/NewProject/static/js/2.0e6d3684.chunk.js.map",
     "index.html": "/NewProject/index.html",
     "static/css/2.4c78f058.chunk.css.map": "/NewProject/static/css/2.4c78f058.chunk.css.map",
-    "static/css/main.7a7f0d76.chunk.css.map": "/NewProject/static/css/main.7a7f0d76.chunk.css.map",
-    "static/js/2.11f326c6.chunk.js.LICENSE.txt": "/NewProject/static/js/2.11f326c6.chunk.js.LICENSE.txt",
+    "static/css/main.b0d73199.chunk.css.map": "/NewProject/static/css/main.b0d73199.chunk.css.map",
+    "static/js/2.0e6d3684.chunk.js.LICENSE.txt": "/NewProject/static/js/2.0e6d3684.chunk.js.LICENSE.txt",
     "static/media/style.css": "/NewProject/static/media/searchWaveBorder.72bd0c5a.svg",
     "static/media/aboutBanerSmall.f647dbe3.png": "/NewProject/static/media/aboutBanerSmall.f647dbe3.png",
+    "static/media/aboutImage.74daf9ef.png": "/NewProject/static/media/aboutImage.74daf9ef.png",
     "static/media/apartamentWave.46bcdb5c.svg": "/NewProject/static/media/apartamentWave.46bcdb5c.svg",
     "static/media/apartamets.fb7082fd.svg": "/NewProject/static/media/apartamets.fb7082fd.svg",
     "static/media/aplin.065adf42.png": "/NewProject/static/media/aplin.065adf42.png",
@@ -23,6 +24,9 @@
     "static/media/face.0516b965.svg": "/NewProject/static/media/face.0516b965.svg",
     "static/media/gratbahn.79412978.png": "/NewProject/static/media/gratbahn.79412978.png",
     "static/media/hwsLogo.30e8fed1.svg": "/NewProject/static/media/hwsLogo.30e8fed1.svg",
+    "static/media/image1.07cb389c.png": "/NewProject/static/media/image1.07cb389c.png",
+    "static/media/image2.c3e2441c.png": "/NewProject/static/media/image2.c3e2441c.png",
+    "static/media/image3.6b2ea9cb.png": "/NewProject/static/media/image3.6b2ea9cb.png",
     "static/media/insta.37a69959.svg": "/NewProject/static/media/insta.37a69959.svg",
     "static/media/lightLine.025b949d.svg": "/NewProject/static/media/lightLine.025b949d.svg",
     "static/media/location.5e8d5758.svg": "/NewProject/static/media/location.5e8d5758.svg",
@@ -30,6 +34,7 @@
     "static/media/logoWhite.c4406280.svg": "/NewProject/static/media/logoWhite.c4406280.svg",
     "static/media/mailIcon.0fe9138f.svg": "/NewProject/static/media/mailIcon.0fe9138f.svg",
     "static/media/menuIco.cf2d2ffa.svg": "/NewProject/static/media/menuIco.cf2d2ffa.svg",
+    "static/media/pageWave.c28d7635.svg": "/NewProject/static/media/pageWave.c28d7635.svg",
     "static/media/pin.59f1ae04.svg": "/NewProject/static/media/pin.59f1ae04.svg",
     "static/media/pinkLine.c1fd2b9e.svg": "/NewProject/static/media/pinkLine.c1fd2b9e.svg",
     "static/media/rating.e7b7fa33.svg": "/NewProject/static/media/rating.e7b7fa33.svg",
@@ -45,8 +50,8 @@
   "entrypoints": [
     "static/js/runtime-main.69dc808e.js",
     "static/css/2.4c78f058.chunk.css",
-    "static/js/2.11f326c6.chunk.js",
-    "static/css/main.7a7f0d76.chunk.css",
-    "static/js/main.f1ff97ba.chunk.js"
+    "static/js/2.0e6d3684.chunk.js",
+    "static/css/main.b0d73199.chunk.css",
+    "static/js/main.59078b81.chunk.js"
   ]
 }
