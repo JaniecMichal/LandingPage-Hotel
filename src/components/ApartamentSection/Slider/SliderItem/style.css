@@ -54,7 +54,7 @@
   color: #58516B;
 }
 
-@media(max-width:415px) {
+@media(max-width:720px) {
   .sliderItem__details {
     padding: 20px 20px 20px 20px;
   }

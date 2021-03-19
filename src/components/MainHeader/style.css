@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-@media(max-width:415px) {
+@media(max-width:720px) {
   .mainHeader {
     padding: 30px 30px 76px 30px;
     height: auto;

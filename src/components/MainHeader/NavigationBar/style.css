@@ -59,7 +59,19 @@
   color: #000;
 }
 
-@media(max-width:415px) {
+@media(max-width:1250px) {
+  .mainNavigationBar {
+    grid-template-columns: repeat(7, 1fr) 60px;
+  }
+  .mainNavigationBar {
+    font-size: 14px;
+      }
+      .mainNavigationBar__navigationItem--logo{
+        width:130px;
+      }
+}
+
+@media(max-width:720px) {
   .mainNavigationBar {
     display: block;
     text-align: center;

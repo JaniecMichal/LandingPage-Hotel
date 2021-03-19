@@ -39,7 +39,7 @@
   border-color: #ED7180;
 }
 
-@media(max-width:415px) {
+@media(max-width:720px) {
   .rec.rec-arrow {
     display: none;
   }

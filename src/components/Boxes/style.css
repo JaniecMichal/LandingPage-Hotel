@@ -48,7 +48,7 @@
   box-shadow: unset;
 }
 
-@media(max-width:415px) {
+@media(max-width:1400px) {
   .boxesSection {
     height: auto;
     display: grid;

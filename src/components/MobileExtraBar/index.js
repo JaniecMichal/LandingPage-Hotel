@@ -50,12 +50,12 @@ const MobileExtraBar = () => {
           <Socials />
         </nav>
       </nav>
-      <footer class="mobileBar">
-        <button class="mobileBar__button">
+      <footer className="mobileBar">
+        <button className="mobileBar__button">
           <img src={pin} alt="" />
         </button>
-        <button class="mobileBar__button">
-          Booking online <img src={searchIcon} alt="" class="searchIcon" />
+        <button className="mobileBar__button">
+          Booking online <img src={searchIcon} alt="" className="searchIcon" />
         </button>
         <button
           class={`mobileBar__button ${

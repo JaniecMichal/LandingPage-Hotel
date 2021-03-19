@@ -20,7 +20,7 @@ const About = () => (
         <p className="section__description section__description--sub">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
-          <strong class="section__importantText">
+          <strong className="section__importantText">
             Ut enim ad minim veniam
           </strong>
           , quis nostrud exercitatdidunt ut labore et dolore magna aliqua. Ut
@@ -28,7 +28,7 @@ const About = () => (
           ut aliquip ex ea commodo consequat. Duis aute irure dolor in.
         </p>
 
-        <p class="section__description section__description--sub">
+        <p className="section__description section__description--sub">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

@@ -56,30 +56,6 @@ const Slider = () => {
       apartamentArea: "80 m2",
       apartamentPrice: 55,
     },
-    {
-      apartamentName: "Wienna Rooms",
-      apartamentImage: aplinImage,
-      apartamentVolume: 6,
-      apartamentBeds: 2,
-      apartamentArea: "80 m2",
-      apartamentPrice: 45,
-    },
-    {
-      apartamentName: "Mountain Apartament",
-      apartamentImage: gratbahnImage,
-      apartamentVolume: 6,
-      apartamentBeds: 2,
-      apartamentArea: "80 m2",
-      apartamentPrice: 39,
-    },
-    {
-      apartamentName: "Brno Rooms",
-      apartamentImage: sommerskiImage,
-      apartamentVolume: 6,
-      apartamentBeds: 2,
-      apartamentArea: "80 m2",
-      apartamentPrice: 55,
-    },
   ];
   return (
     <Carousel itemsToShow={3} className="carousel">

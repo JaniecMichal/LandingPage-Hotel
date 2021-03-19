@@ -35,7 +35,7 @@
   font-weight: 700;
 }
 
-@media(max-width:415px) {
+@media(max-width:1400px) {
   .section--about {
     margin-top: 0px;
     background-image: url("../../images/aboutBackgroundSmall.png");
@@ -48,12 +48,12 @@
     align-items: flex-start;
   }
   .section__description--main {
-    max-width: 374px;
+    max-width: 100%;
     font-size: 18px;
     margin-bottom: 12px;
   }
   .section__description--sub {
-    max-width: 374px;
+    max-width: 100%;
     font-size: 16px;
     margin-bottom: 0;
   }

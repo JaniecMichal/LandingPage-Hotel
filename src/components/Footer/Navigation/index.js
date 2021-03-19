@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 
 const Navigation = () => (
-  <nav>
+  <nav className="footer__nav">
     <h4 className="footer__headerTitle">Menu</h4>
     <ul className="footer__menu">
       <li className="footer__menuItem">

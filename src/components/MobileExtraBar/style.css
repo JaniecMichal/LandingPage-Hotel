@@ -10,7 +10,7 @@
   display: none;
 }
 
-@media(max-width:415px) {
+@media(max-width:720px) {
   .mobileBar {
     max-width: 100%;
     display: grid;

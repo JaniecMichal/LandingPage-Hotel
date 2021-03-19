@@ -10,30 +10,30 @@ const Stats = () => {
     <section className="footer__stats">
       <article className="footer__statsItem">
         <img src={apartamentsIco} alt="apartaments_stats" />
-        <div class="footer__statsDetails">
-          <h6 class="footer__statsHeader">163</h6>
-          <span class="footer_statsName">apartaments</span>
+        <div className="footer__statsDetails">
+          <h6 className="footer__statsHeader">163</h6>
+          <span className="footer_statsName">apartaments</span>
         </div>
       </article>
       <article className="footer__statsItem">
         <img src={locationsIco} alt="locations_stats" />
-        <div class="footer__statsDetails">
-          <h6 class="footer__statsHeader">7</h6>
-          <span class="footer_statsName">locations</span>
+        <div className="footer__statsDetails">
+          <h6 className="footer__statsHeader">7</h6>
+          <span className="footer_statsName">locations</span>
         </div>
       </article>
       <article className="footer__statsItem">
         <img src={ratingIco} alt="rating_stats" />
-        <div class="footer__statsDetails">
-          <h6 class="footer__statsHeader">9,9</h6>
-          <span class="footer_statsName">rating</span>
+        <div className="footer__statsDetails">
+          <h6 className="footer__statsHeader">9,9</h6>
+          <span className="footer_statsName">rating</span>
         </div>
       </article>
       <article className="footer__statsItem">
         <img src={standardIco} alt="starStandard_stats" />
-        <div class="footer__statsDetails">
-          <h6 class="footer__statsHeader">5</h6>
-          <span class="footer_statsName">star standard</span>
+        <div className="footer__statsDetails">
+          <h6 className="footer__statsHeader">5</h6>
+          <span className="footer_statsName">star standard</span>
         </div>
       </article>
     </section>

@@ -75,7 +75,7 @@
   border: none;
 }
 
-@media(max-width:415px) {
+@media(max-width:720px) {
   .searchingForm {
     display: block;
     padding: 0;
