@@ -41,7 +41,7 @@ const MobileExtraBar = () => {
           <div className="langButtonWrapper">
             <button
               className="mobileNavList__language mobileNavList__language--active"
-              active={true}
+              active
             >
               EN
             </button>

@@ -23,7 +23,11 @@ const Section = ({
   return (
     <section className={`section ${sectionModifierClass}`}>
       {sectionWave ? <img src={wave} className="section__wave" alt="" /> : ""}
-      {pageSection && pageImage ? <img src={pageImage} alt="" className="pageImage" /> : ""}
+      {pageSection && pageImage ? (
+        <img src={pageImage} alt="" className="pageImage" />
+      ) : (
+        ""
+      )}
       <img
         src={sectionHeaderImage}
         alt=""
@@ -54,7 +58,10 @@ const Section = ({
 
       {!pageSection ? (
         <button className={`section__buttonLink ${buttonModifierClass}`}>
-          <Link to={sectionLinkTo} className="section__linkTo">
+          <Link
+            to={sectionLinkTo ? sectionLinkTo : ""}
+            className="section__linkTo"
+          >
             More {sectionButtonLinkText}
           </Link>
         </button>
