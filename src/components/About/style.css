@@ -44,6 +44,7 @@
     align-items: center;
   }
   .section__header--about {
+    height: auto;
     margin-top: 0px;
     align-items: flex-start;
   }
