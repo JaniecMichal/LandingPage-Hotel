@@ -14,6 +14,7 @@ const AboutUS = () => {
     <Container pageVersion={true}>
       <InfoHeader headerMessage="We are open!" />
       <MainHeader pageSection={true} pageTitle={"About us"} />
+      <MobileExtraBar pageSection={true} />
       <Section
         pageSection={true}
         pageImage={aboutImage}
@@ -25,7 +26,6 @@ const AboutUS = () => {
         sectionExtraContent={aboutRestContent()}
       />
       <Footer pageVersion={true} />
-      <MobileExtraBar />
     </Container>
   );
 };

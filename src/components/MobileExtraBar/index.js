@@ -5,7 +5,7 @@ import menuIco from "../../images/menuIco.svg";
 import searchIcon from "../../images/searchIcon.svg";
 import Socials from "../Socials";
 
-const MobileExtraBar = () => {
+const MobileExtraBar = (pageSection) => {
   const [hideNavigation, setHideNavigation] = useState(false);
 
   const showNavigationBar = () => {

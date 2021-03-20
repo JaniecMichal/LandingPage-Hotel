@@ -19,7 +19,7 @@ const Homepage = () => {
         <ApartamentSection />
         <About />
         <Boxes />
-        <Footer />
+        <Footer pageVersion={false} />
         <MobileExtraBar />
       </Container>
     </>
