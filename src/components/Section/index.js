@@ -69,7 +69,7 @@ const Section = ({
         ""
       )}
     </section>
-  );
+  )
 };
 
 export default Section;

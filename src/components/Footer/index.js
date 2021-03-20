@@ -48,7 +48,7 @@ const Footer = ({ pageVersion }) => {
         <Socials className={"footer__socials"} />
       </div>
     </footer>
-  );
+  )
 };
 
 export default Footer;
