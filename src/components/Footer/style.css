@@ -1,4 +1,4 @@
-.footer {
+.footerClass {
   max-width: 100%;
   background-color: #262037;
   color: #fff;
@@ -11,7 +11,7 @@
   padding: 18px;
 }
 
-.footer::before {
+.footerClass::before {
   content: "";
   background-image: url("../../images/footerWave.svg");
   position: absolute;

@@ -12,7 +12,7 @@ import Stats from "./Stats";
 
 const Footer = ({ pageVersion }) => {
   return (
-    <footer className="footer">
+    <footer className="footerClass">
       {!pageVersion ? <Stats /> : ""}
 
       <header className="footer__header">
